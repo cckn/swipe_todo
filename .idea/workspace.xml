@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="590811ad-28da-4325-b168-e48f344c2fe3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gRnXHaMdk7rKPSZdZDPHWAmVfz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager" selected="Flutter Test.tests in test">
+    <list>
+      <item itemvalue="Flutter.main.dart" />
+      <item itemvalue="Flutter Test.tests in test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="590811ad-28da-4325-b168-e48f344c2fe3" name="Default Changelist" comment="" />
+      <created>1598086311471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598086311471</updated>
+    </task>
+    <task id="LOCAL-00001" summary="update README.md">
+      <created>1598086794222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598086794222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598087044581">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1598087044581" />
+    <state x="377" y="197" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1598087016503">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="377" y="197" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1598087016503" />
+    <state x="312" y="140" key="#tests_in_test" timestamp="1598087070937">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="312" y="140" key="#tests_in_test/0.0.1280.800@0.0.1280.800" timestamp="1598087070937" />
+    <state x="259" y="2" key="CommitChangelistDialog2" timestamp="1598087150611">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="259" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1598087150611" />
+    <state x="499" y="300" key="Github.ShareDialog" timestamp="1598086615398">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="499" y="300" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1598086615398" />
+    <state x="407" y="113" key="Github.UntrackedFilesDialog" timestamp="1598086652642">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="407" y="113" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1598086652642" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1598087100835">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598087100835" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1598087100829">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598087100829" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1598087100828">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598087100828" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1598087100831">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598087100831" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1598086798540">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1598086798540" />
+    <state x="305" y="104" width="670" height="697" key="search.everywhere.popup" timestamp="1598087168974">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="104" width="670" height="697" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1598087168974" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1598086375641" />
+  </component>
+</project>
