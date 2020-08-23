@@ -1,18 +1,33 @@
 import 'package:flutter/material.dart';
-import 'package:swipe_todo/Widgets/counter_view.dart';
+import 'package:swipe_todo/widgets/counter_view.dart';
+import 'package:provider/provider.dart';
 
-class Counter extends StatelessWidget {
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({Key key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("title"),
+        title: const Text('Example'),
       ),
-      body: CounterView(),
+      body: Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              'You have pushed the button this many times:',
+              style: Theme.of(context).textTheme.bodyText1,
+            ),
+            const Count(),
+          ],
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () => context.read<Counter>().increment(),
         tooltip: 'Increment',
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
     );
   }

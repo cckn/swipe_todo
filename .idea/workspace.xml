@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="590811ad-28da-4325-b168-e48f344c2fe3" name="Default Changelist" comment="bloc-cubit 적용 전 프로젝트 구조 변경">
-      <change afterPath="$PROJECT_DIR$/lib/cubit/counter_cubit.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cubit/counter_observer.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cubit/counter_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/counter.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/counter_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+    <list default="true" id="590811ad-28da-4325-b168-e48f344c2fe3" name="Default Changelist" comment="provider 적용">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cubit/counter_cubit.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cubit/counter_observer.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cubit/counter_state.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/counter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/counter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/counter_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/counter_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1gRnXHaMdk7rKPSZdZDPHWAmVfz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -74,20 +79,28 @@
       <option name="project" value="LOCAL" />
       <updated>1598087199039</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bloc-cubit 적용 전 프로젝트 구조 변경">
+      <created>1598091370762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598091370764</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update README.md" />
     <MESSAGE value="add .idea folder to git &#10; - for test" />
     <MESSAGE value="bloc-cubit 적용 전 프로젝트 구조 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="bloc-cubit 적용 전 프로젝트 구조 변경" />
+    <MESSAGE value="provider 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="provider 적용" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="65" key="#Plugins" timestamp="1598089807069">
+    <state x="240" y="65" key="#Plugins" timestamp="1598106420272">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="65" key="#Plugins/0.0.1280.800@0.0.1280.800" timestamp="1598089807069" />
+    <state x="240" y="65" key="#Plugins/0.0.1280.800@0.0.1280.800" timestamp="1598106420272" />
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598088344591">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -96,14 +109,18 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="377" y="197" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1598087016503" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598091919239">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1598091919239" />
     <state x="312" y="140" key="#tests_in_test" timestamp="1598087070937">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="312" y="140" key="#tests_in_test/0.0.1280.800@0.0.1280.800" timestamp="1598087070937" />
-    <state x="259" y="0" width="762" height="800" key="CommitChangelistDialog2" timestamp="1598091357273">
+    <state x="259" y="0" width="762" height="800" key="CommitChangelistDialog2" timestamp="1598181366703">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="259" y="0" width="762" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1598091357273" />
+    <state x="259" y="0" width="762" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1598181366703" />
     <state x="128" y="69" key="DiffContextDialog" timestamp="1598091339597">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -116,42 +133,47 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="407" y="113" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1598086652642" />
-    <state width="619" height="212" key="GridCell.Tab.0.bottom" timestamp="1598091357461">
+    <state width="619" height="212" key="GridCell.Tab.0.bottom" timestamp="1598181366802">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598091357461" />
-    <state width="619" height="212" key="GridCell.Tab.0.center" timestamp="1598091357460">
+    <state width="619" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598181366802" />
+    <state width="619" height="212" key="GridCell.Tab.0.center" timestamp="1598181366801">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598091357460" />
-    <state width="619" height="212" key="GridCell.Tab.0.left" timestamp="1598091357458">
+    <state width="619" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598181366801" />
+    <state width="619" height="212" key="GridCell.Tab.0.left" timestamp="1598181366800">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598091357458" />
-    <state width="619" height="212" key="GridCell.Tab.0.right" timestamp="1598091357460">
+    <state width="619" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598181366800" />
+    <state width="619" height="212" key="GridCell.Tab.0.right" timestamp="1598181366802">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598091357460" />
+    <state width="619" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598181366802" />
+    <state x="463" y="118" key="RollbackChangesDialog" timestamp="1598091856332">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="463" y="118" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1598091856332" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1598090736381">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1598090736381" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1598087202911">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1598091378067">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1598087202911" />
-    <state x="310" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1598089885529">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1598091378067" />
+    <state x="310" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1598106964384">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="310" y="248" key="com.intellij.ide.util.TipDialog/0.0.1280.800/-1366.0.1366.1024@0.0.1280.800" timestamp="1598106964384" />
     <state x="310" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1598089885529" />
     <state x="292" y="157" width="695" height="486" key="find.popup" timestamp="1598087747462">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="292" y="157" width="695" height="486" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1598087747462" />
-    <state x="305" y="104" width="670" height="697" key="search.everywhere.popup" timestamp="1598091367530">
+    <state x="305" y="104" width="670" height="697" key="search.everywhere.popup" timestamp="1598181380514">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="104" width="670" height="697" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1598091367530" />
+    <state x="305" y="104" width="670" height="697" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1598181380514" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1598086375641" />
   </component>
 </project>
