@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:swipe_todo/provider/counter.dart';
 import 'package:swipe_todo/screens/counter.dart';
-import 'package:swipe_todo/widgets/counter_view.dart';
 
 /// This is a reimplementation of the default Flutter application using provider + [ChangeNotifier].
 
